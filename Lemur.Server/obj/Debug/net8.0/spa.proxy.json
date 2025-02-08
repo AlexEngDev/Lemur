@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:61254",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\alexa\\source\\repos\\Lemur\\Lemur.Server\\..\\lemur.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
