@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lemur.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fea47eb31da2665db96a2323027e096256143473")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+259c59afe4abc0a0a3e588b75b520699ac5723c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lemur.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lemur.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
