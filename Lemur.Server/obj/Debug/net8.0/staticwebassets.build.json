@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WNzkOoHO0I65iQFSun8LX5CTXlbA8rlYN6bXGznsLcQ=",
+  "Hash": "vsuSHgRT54plRUKJATwvsK0bHuphdqAL+fbAgQHYnt0=",
   "Source": "Lemur.Server",
   "BasePath": "_content/Lemur.Server",
   "Mode": "Default",
@@ -19,5 +19,6 @@
     }
   ],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

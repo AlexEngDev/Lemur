@@ -171,3 +171,7 @@ C:\Users\alexa\source\repos\Lemur\Lemur.Server\obj\Release\net8.0\refint\Lemur.S
 C:\Users\alexa\source\repos\Lemur\Lemur.Server\obj\Release\net8.0\Lemur.Server.pdb
 C:\Users\alexa\source\repos\Lemur\Lemur.Server\obj\Release\net8.0\Lemur.Server.genruntimeconfig.cache
 C:\Users\alexa\source\repos\Lemur\Lemur.Server\obj\Release\net8.0\ref\Lemur.Server.dll
+C:\Users\alexa\source\repos\Lemur\Lemur.Server\bin\Release\net8.0\Lemur.Server.staticwebassets.endpoints.json
+C:\Users\alexa\source\repos\Lemur\Lemur.Server\obj\Release\net8.0\staticwebassets.build.endpoints.json
+C:\Users\alexa\source\repos\Lemur\Lemur.Server\obj\Release\net8.0\staticwebassets\msbuild.Lemur.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\alexa\source\repos\Lemur\Lemur.Server\obj\Release\net8.0\staticwebassets.upToDateCheck.txt

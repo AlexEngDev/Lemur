@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "G0reEibWjes=",
+  "dgSpecHash": "OzzZVYry8IY=",
   "success": true,
   "projectFilePath": "C:\\Users\\alexa\\source\\repos\\Lemur\\Lemur.Server\\Lemur.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexa\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.12\\microsoft.aspnetcore.spaproxy.8.0.12.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.14\\microsoft.aspnetcore.spaproxy.8.0.14.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.build.locator\\1.7.8\\microsoft.build.locator.1.7.8.nupkg.sha512",

@@ -10,22 +10,43 @@ using System.Text.RegularExpressions;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 using Telegram.Bot.Types.Enums;
 using System.Threading;
+using System.Net;
 
 namespace Lemur.Server.Services.ServicesTelegram;
 
 public class TelegramBotService
 {
-    private readonly string _botToken;
+      private readonly string _botToken;
     private static IServiceScopeFactory _scopeFactory;
     private readonly ITelegramBotClient _botClient;
     private static readonly Random _random = new Random();
 
-
-    public TelegramBotService(string botToken, IServiceScopeFactory scopeFactory)
+    public TelegramBotService(string botToken, IServiceScopeFactory scopeFactory, bool isProxy = false)
     {
         _botToken = botToken;
-        _botClient = new TelegramBotClient(_botToken);
         _scopeFactory = scopeFactory;
+
+        var proxy = new WebProxy("http://winproxy.server.lan:3128", true)
+        {
+            UseDefaultCredentials = false, // Imposta su true se il proxy richiede autenticazione
+        };
+
+        HttpClient httpClient = new HttpClient(new HttpClientHandler
+        {
+            Proxy = proxy,
+            UseProxy = true,
+        });
+
+
+        if(isProxy)
+        {
+            _botClient = new TelegramBotClient(_botToken, httpClient);
+        }
+        else
+        {
+            _botClient = new TelegramBotClient(_botToken);
+        }   
+
 
         InitializeCommands().Wait();
     }
@@ -39,6 +60,11 @@ public class TelegramBotService
 
         var operazioniDefault = await _context.Permissions
             .Where(op => op.IsDefault == true).ToListAsync();
+
+        if (operazioniDefault == null || operazioniDefault.Count == 0)
+        {
+            return;
+        }
 
         var commands = new List<BotCommand>();
 
